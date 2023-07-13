@@ -22,7 +22,7 @@ __Air_CO2_concentration                                        350.0000
 __Climate_files                                                       2
 1                                              C:\DNDC\DNDC data\Climate_2019.txt
 2                                              C:\DNDC\DNDC data\Climate_2020.txt
-__Climate_file_mode                                                   1
+__Climate_file_mode                                                   0
 __CO2_increase_rate                                              0.0000
 __None                                                                0
 __None                                                                0
@@ -34,7 +34,7 @@ Soil_data
 
 __Land_use_ID                                                         1
 __Soil_texture_ID                                                     4
-__Bulk_density                                                   1.1768
+__Bulk_density                                                   1.2000
 __pH                                                             9.1000
 __Clay_fraction                                                  0.3100
 __Porosity                                                       0.4850
@@ -42,10 +42,10 @@ __Bypass_flow                                                    0.0000
 __Field_capacity                                                 0.4000
 __Wilting_point                                                  0.2000
 __Hydro_conductivity                                             0.0259
-__Top_layer_SOC                                                  0.0200
+__Top_layer_SOC                                                  0.0038
 __Litter_fraction                                                0.0100
-__Humads_fraction                                                0.0230
-__Humus_fraction                                                 0.9670
+__Humads_fraction                                                0.0156
+__Humus_fraction                                                 0.9744
 __Adjusted_litter_factor                                         1.0000
 __Adjusted_humads_factor                                         1.0000
 __Adjusted_humus_factor                                          1.0000
@@ -53,8 +53,8 @@ __Humads_C/N                                                    10.0000
 __Humus_C/N                                                     10.0000
 __Black_C                                                        0.0000
 __Black_C_C/N                                                  500.0000
-__SOC_profile_A                                                  0.0800
-__SOC_profile_B                                                  1.4000
+__SOC_profile_A                                                  0.2000
+__SOC_profile_B                                                  2.0000
 __Initial_nitrate_ppm                                            0.5000
 __Initial_ammonium_ppm                                           0.0500
 __Soil_microbial_index                                           1.0000
@@ -86,7 +86,19 @@ ____Till_applications                                                 0
 ____Fertilizer_applications                                           0
 ____Fertilization_option                                              0
 ----------------------------------------
-____Manure_applications                                               0
+____Manure_applications                                               1
+______Manuring#                                                       1
+______Manuring_month                                                 10
+______Manuring_day                                                    1
+______Manure_amount                                           6465.0000
+______Manure_C/N                                                 5.6768
+______Manure_type                                                     9
+______Manuring_method                                                 1
+______Manure_depth                                              20.0000
+______Manure_OrgN                                              792.5000
+______Manure_NH4                                               230.8930
+______Manure_NO3                                               115.4460
+______None                                                            0
 ----------------------------------------
 ____Film_applications                                                 0
 ____Method                                                            0
